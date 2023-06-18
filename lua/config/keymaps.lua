@@ -26,10 +26,10 @@ local keymap = vim.keymap.set
 -- keymap("v", "<Left>", "", { desc = "No left for you!" })
 -- keymap("v", "<Right>", "", { desc = "No right for you!" })
 
-keymap("n", "<C-Up>", ":resize -2<CR>")
-keymap("n", "<C-Down>", ":resize +2<CR>")
-keymap("n", "<C-Left>", ":vertical resize -2<CR>")
-keymap("n", "<C-Right>", ":vertical resize +2<CR>")
+keymap("n", "<C-Up>", ":resize +4<CR>")
+keymap("n", "<C-Down>", ":resize -4<CR>")
+keymap("n", "<C-Left>", ":vertical resize -4<CR>")
+keymap("n", "<C-Right>", ":vertical resize +4<CR>")
 
 keymap("v", "J", ":m '>+1<CR>gv=gv")
 keymap("v", "K", ":m '<-2<CR>gv=gv")
