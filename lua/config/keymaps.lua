@@ -36,3 +36,7 @@ keymap("v", "K", ":m '<-2<CR>gv=gv")
 
 keymap("v", "<", "<gv")
 keymap("v", ">", ">gv")
+
+--NOTE: keymap to save
+
+keymap("n", "<Leader>s", ":w<CR>", { desc = "Save file" })

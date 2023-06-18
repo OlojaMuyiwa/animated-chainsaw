@@ -20,8 +20,9 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
     { import = "lazyvim.plugins.extras.ui.edgy" },
+    -- BUG: hipatterns is dangerous
     -- { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
-    -- { import = "lazyvim.plugins.extras.util.project" },
+    { import = "lazyvim.plugins.extras.util.project" },
     { import = "lazyvim.plugins.extras.vscode" },
     -- import/override with your plugins
     { import = "plugins" },
