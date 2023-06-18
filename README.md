@@ -1,3 +1,3 @@
 # 💤 My LazyVim configuration to humiliate Vs
 
-:> Catch me if you can
+> Catch me if you can
